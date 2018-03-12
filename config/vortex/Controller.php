@@ -57,13 +57,18 @@
 						$handler = Handler::clause_tunnel();
 						$file_exists = 1;
 
-						if(isset($handler['error'])){
+						/*if(isset($handler['error'])){
 							$view_OBJ = new view();
 							return $view_OBJ->render_view("app/500", $handler);
 						}
 						else{
 							return $report;
+						}*/
+
+						if(!isset($handler['error'])){
+							return $report;
 						}
+						
 					}
 					else{
 						$handler['message'] = $function_name . "() method doesn't exist in Class " . $this->controller;
