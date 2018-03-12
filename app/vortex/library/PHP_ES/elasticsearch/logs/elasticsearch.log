@@ -1,0 +1,38 @@
+[2018-02-21T14:53:22,217][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-02-21T14:53:22,623][INFO ][o.e.e.NodeEnvironment    ] [g2JGIOm] using [1] data paths, mounts [[(C:)]], net usable_space [52.5gb], net total_space [97.9gb], types [NTFS]
+[2018-02-21T14:53:22,623][INFO ][o.e.e.NodeEnvironment    ] [g2JGIOm] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-02-21T14:53:22,631][INFO ][o.e.n.Node               ] node name [g2JGIOm] derived from node ID [g2JGIOmERfG5lK30UjLnZg]; set [node.name] to override
+[2018-02-21T14:53:22,636][INFO ][o.e.n.Node               ] version[6.2.1], pid[11612], build[7299dc3/2018-02-07T19:34:26.990113Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/9.0.4/9.0.4+11]
+[2018-02-21T14:53:22,638][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\INDRAJ~1\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -Delasticsearch, -Des.path.home=C:\xampp\htdocs\isg\PHP_ES\elasticsearch, -Des.path.conf=C:\xampp\htdocs\isg\PHP_ES\elasticsearch\config]
+[2018-02-21T14:53:25,320][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [aggs-matrix-stats]
+[2018-02-21T14:53:25,321][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [analysis-common]
+[2018-02-21T14:53:25,321][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [ingest-common]
+[2018-02-21T14:53:25,322][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [lang-expression]
+[2018-02-21T14:53:25,324][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [lang-mustache]
+[2018-02-21T14:53:25,325][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [lang-painless]
+[2018-02-21T14:53:25,325][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [mapper-extras]
+[2018-02-21T14:53:25,326][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [parent-join]
+[2018-02-21T14:53:25,327][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [percolator]
+[2018-02-21T14:53:25,328][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [rank-eval]
+[2018-02-21T14:53:25,329][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [reindex]
+[2018-02-21T14:53:25,330][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [repository-url]
+[2018-02-21T14:53:25,332][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [transport-netty4]
+[2018-02-21T14:53:25,333][INFO ][o.e.p.PluginsService     ] [g2JGIOm] loaded module [tribe]
+[2018-02-21T14:53:25,336][INFO ][o.e.p.PluginsService     ] [g2JGIOm] no plugins loaded
+[2018-02-21T14:53:33,727][INFO ][o.e.d.DiscoveryModule    ] [g2JGIOm] using discovery type [zen]
+[2018-02-21T14:53:35,089][INFO ][o.e.n.Node               ] initialized
+[2018-02-21T14:53:35,090][INFO ][o.e.n.Node               ] [g2JGIOm] starting ...
+[2018-02-21T14:53:36,420][INFO ][o.e.t.TransportService   ] [g2JGIOm] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-02-21T14:53:39,712][INFO ][o.e.c.s.MasterService    ] [g2JGIOm] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {g2JGIOm}{g2JGIOmERfG5lK30UjLnZg}{Nf9fZaa-Rf2U5Vg80-C-lQ}{127.0.0.1}{127.0.0.1:9300}
+[2018-02-21T14:53:39,725][INFO ][o.e.c.s.ClusterApplierService] [g2JGIOm] new_master {g2JGIOm}{g2JGIOmERfG5lK30UjLnZg}{Nf9fZaa-Rf2U5Vg80-C-lQ}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {g2JGIOm}{g2JGIOmERfG5lK30UjLnZg}{Nf9fZaa-Rf2U5Vg80-C-lQ}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-02-21T14:53:39,954][INFO ][o.e.g.GatewayService     ] [g2JGIOm] recovered [0] indices into cluster_state
+[2018-02-21T14:53:40,399][INFO ][o.e.h.n.Netty4HttpServerTransport] [g2JGIOm] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-02-21T14:53:40,400][INFO ][o.e.n.Node               ] [g2JGIOm] started
+[2018-02-21T15:45:32,388][INFO ][o.e.c.m.MetaDataCreateIndexService] [g2JGIOm] [my_index] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-02-21T16:17:36,665][INFO ][o.e.c.m.MetaDataCreateIndexService] [g2JGIOm] [pokedex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-02-21T16:31:16,108][INFO ][o.e.c.m.MetaDataCreateIndexService] [g2JGIOm] [pokemon] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2018-02-21T16:31:18,542][INFO ][o.e.c.m.MetaDataMappingService] [g2JGIOm] [pokemon/2MHEa5TIQKqKzKaBS06r_Q] create_mapping [pokemon_trainer]
+[2018-02-21T18:20:28,873][INFO ][o.e.n.Node               ] [g2JGIOm] stopping ...
+[2018-02-21T18:20:29,016][INFO ][o.e.n.Node               ] [g2JGIOm] stopped
+[2018-02-21T18:20:29,017][INFO ][o.e.n.Node               ] [g2JGIOm] closing ...
+[2018-02-21T18:20:29,039][INFO ][o.e.n.Node               ] [g2JGIOm] closed

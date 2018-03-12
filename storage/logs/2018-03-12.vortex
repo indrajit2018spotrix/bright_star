@@ -1,0 +1,149 @@
+13:33:02:1924 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TrigerModel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(53): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(115): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:37:06:1166 ###### Class AppController is not defined.
+
+13:37:41:3463 ###### app() method doesn't exist in Class AppController
+
+13:41:07:0977 ###### AppModl is not declared in Model.
+
+13:41:08:7468 ###### AppModl is not declared in Model.
+
+13:51:57:0145 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(125): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:52:10:2505 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(125): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:52:59:7169 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(126): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:53:29:3501 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(126): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:54:09:6471 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(126): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:54:35:0613 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(126): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:55:11:89 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(126): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:55:54:743 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(126): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:56:32:6037 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(125): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:56:40:0888 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(125): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:56:43:0252 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(125): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+13:57:35:6072 ######  <------> C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php <------> 22 <------> Uncaught Error: Call to undefined method config\vortex\Model::TriggerMoel() in C:\xampp\htdocs\isg\chatroom\app\http\illuminate\controller\AppController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\isg\chatroom\config\vortex\Controller.php(56): app\http\illuminate\controller\AppController->app()
+#1 C:\xampp\htdocs\isg\chatroom\config\vortex\ROUTE.php(196): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\chatroom\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/', 'g7kjgh4y389250d...', 'GET')
+#3 C:\xampp\htdocs\isg\chatroom\config\app.php(73): config\vortex\__init__::init_routing(Array)
+#4 C:\xampp\htdocs\isg\chatroom\index.php(125): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+14:00:39:106 ###### 
+Parse error: syntax error, unexpected ':' in app/http/illuminate/controller/AppController.php on line 22
+Errors parsing app/http/illuminate/controller/AppController.php
+
+
+14:13:29:0947 ###### 8 <------> C:\xampp\htdocs\isg\chatroom\resource\app\403.blade.php <------> 8 <------> Undefined index: _-_-_app_-_-_
+
+14:14:42:3765 ###### 8 <------> C:\xampp\htdocs\isg\chatroom\resource\app\403.blade.php <------> 8 <------> Undefined index: _-_-manifest-_-_
+
+14:41:16:084 ###### 8 <------> C:\xampp\htdocs\isg\chatroom\resource\app\403.blade.php <------> 10 <------> Undefined index: _-_-manifest-_-_
+
