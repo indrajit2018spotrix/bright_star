@@ -1,0 +1,13 @@
+01:26:18:5099 ######  <------> C:\xampp\htdocs\isg\bright_star\app\http\illuminate\controller\SessionController.php <------> 16 <------> Uncaught Error: Call to undefined method helper\vortex_session_library::fetch_user_info() in C:\xampp\htdocs\isg\bright_star\app\http\illuminate\controller\SessionController.php:16
+Stack trace:
+#0 C:\xampp\htdocs\isg\bright_star\config\vortex\Controller.php(57): app\http\illuminate\controller\SessionController->session_data()
+#1 C:\xampp\htdocs\isg\bright_star\config\vortex\ROUTE.php(160): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\bright_star\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/session_data/', 'j9h8g64fd39250d...', 'GET')
+#3 C:\xampp\htdocs\isg\bright_star\config\app.php(83): config\vortex\__init__::init_routing()
+#4 C:\xampp\htdocs\isg\bright_star\index.php(126): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+01:57:26:7379 ###### 2 <------> C:\xampp\htdocs\isg\bright_star\app\vortex\library\PHP_MySQL\mysql\conn.php <------> 22 <------> mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+

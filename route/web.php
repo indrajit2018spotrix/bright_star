@@ -48,6 +48,15 @@
 					"controller"	=>	"WelcomeController@welcome",
 					"view"			=>	NULL,
 					"string"		=>	NULL
+				],
+				[
+					"routeID"		=>	"j9h8g64fd39250d7i3dfg934k985k5d3",
+					"method"		=>	"get",
+					"route"			=>	"/session_data",
+					"response_type"	=>	"string",
+					"controller"	=>	'SessionController@session_data',
+					"view"			=>	NULL,
+					"string"		=>	NULL
 				]
 			];
 

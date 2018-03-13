@@ -1,0 +1,25 @@
+17:44:46:7335 ###### Class SessionController is not defined.
+
+17:46:06:272 ###### session_data() method doesn't exist in Class SessionController
+
+18:49:20:7282 ######  <------> C:\xampp\htdocs\isg\bright_star\helper\vortex_session_library.php <------> 52 <------> Uncaught Error: Call to undefined method helper\vortex_user_info_library::generate_session_record() in C:\xampp\htdocs\isg\bright_star\helper\vortex_session_library.php:52
+Stack trace:
+#0 C:\xampp\htdocs\isg\bright_star\app\http\illuminate\controller\SessionController.php(17): helper\vortex_session_library::session_init(Array)
+#1 C:\xampp\htdocs\isg\bright_star\config\vortex\Controller.php(57): app\http\illuminate\controller\SessionController->session_data()
+#2 C:\xampp\htdocs\isg\bright_star\config\vortex\ROUTE.php(160): config\vortex\Controller->TriggerController()
+#3 C:\xampp\htdocs\isg\bright_star\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/session_data/', 'j9h8g64fd39250d...', 'GET')
+#4 C:\xampp\htdocs\isg\bright_star\config\app.php(82): config\vortex\__init__::init_routing()
+#5 C:\xampp\htdocs\isg\bright_star\index.php(126): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown
+
+19:07:52:2535 ######  <------> C:\xampp\htdocs\isg\bright_star\app\http\illuminate\controller\SessionController.php <------> 16 <------> Uncaught Error: Call to undefined function app\http\illuminate\controller\get_session_ID() in C:\xampp\htdocs\isg\bright_star\app\http\illuminate\controller\SessionController.php:16
+Stack trace:
+#0 C:\xampp\htdocs\isg\bright_star\config\vortex\Controller.php(57): app\http\illuminate\controller\SessionController->session_data()
+#1 C:\xampp\htdocs\isg\bright_star\config\vortex\ROUTE.php(160): config\vortex\Controller->TriggerController()
+#2 C:\xampp\htdocs\isg\bright_star\config\vortex\__init__.php(23): config\vortex\ROUTE->__init_routing__('/session_data/', 'j9h8g64fd39250d...', 'GET')
+#3 C:\xampp\htdocs\isg\bright_star\config\app.php(82): config\vortex\__init__::init_routing()
+#4 C:\xampp\htdocs\isg\bright_star\index.php(126): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+

@@ -24,15 +24,14 @@
 		],
 		"_-_-_fileread_record_-_-_"				=>	[],
 		"_-_-_asset_folder_-_-_"				=>	"asset",
-		"_-_-_custom_library_path_-_-_"			=>	"helper",
-		"_-_-_SESSION_expiration_-_-_"			=>	3600,
-		"_-_-_COOKIE_expiration_-_-_"			=>	86400
+		"_-_-_custom_library_path_-_-_"			=>	"helper"
 	];
 
 	require_once $GLOBALS['_-_-_core_-_-_']['_-_-___init___-_-_'];
 
 	$GLOBALS['_-_-_manifest_-_-_'] = manifest::system_manifest();
 	$SERVER_VARS = server_vars::server_array();
+	$GLOBALS['_-_-_SERVER_VARS_-_-_'] = $SERVER_VARS;
 
 	$svr_prtcl_arr = explode('/', $SERVER_VARS['SERVER_PROTOCOL']);
 	$server_protocol = strtolower($svr_prtcl_arr[0]);

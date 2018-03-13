@@ -18,42 +18,6 @@
 			$this->ROUTES = $ROUTES;
 		}
 
-		private function uri_vars($url_signature){
-			$url_parts = explode('/', $url_signature);
-			for($i=0; $i<sizeof($url_parts); $i++)
-				trim($url_parts[$i]);
-
-			// for($i=0; $i<sizeof($url_parts); $i++)
-			// 	$url_parts[$i] = str_split($url_parts[$i]);
-
-			$index_0 = $url_parts[0];
-
-			if(substr($url_parts[0], 0, 1) == '{'){
-				return [
-					"success"	=>	0,
-					"failure"	=>	1,
-					"message"	=>	"Invalid Route."
-				];
-			}
-			else{
-				for($i=0; $i<sizeof($url_parts); $i++){
-					if(substr($url_parts[$i], 0, 1) == '{'){
-						$var = '';
-						for($j=1; $j<strlen($url_parts[$i])-1; $j++)
-							$var = $var . '' . substr($url_parts[$i], $j, 1);
-						if($var != '')
-							array_push($this->url_var_arr, $var);
-					}
-				}
-
-				return [
-						"success"	=>	1,
-						"failure"	=>	0,
-						"message"	=>	"Go to Route."
-				];
-			}
-		}
-
 		private function generate_route_url($url, $routeID, $Request_Method){
 
 			// $index = FALSE;
@@ -219,14 +183,5 @@
 		}
 
 	}
-
-	
-	// ROUTE::get('/abc', "abcController@hello");
-
-	/*
-		if route id exists
-			if pattern matches
-				generate variable-var array
-	*/
 
 ?>
