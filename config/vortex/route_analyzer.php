@@ -1,6 +1,8 @@
 <?php
 
 	namespace config\vortex;
+	use helper\vortex_session_library;
+	use config\vortex\__init__;
 
 	if(!defined('_-_-_APP_CONSTANT_-_-_')){
 		die();
@@ -64,7 +66,14 @@
 				
 			}
 			else{
-				header('location: g7kjgh4y389250d7i3dfg934k985k5d3');
+				if(strcasecmp($GLOBALS['_-_-_Request_Method_-_-_'], 'POST') == 0){
+					$GLOBALS['_-_-_REQUEST_URI_-_-_'] = $GLOBALS['_-_-_manifest_-_-_']['_-_-_BASE_PATH_-_-_'] . "/g7kjgh4y389250d7i3dfg934k985k5d3";
+					__init__::init_routing();
+					die();
+				}
+				else{
+					header('location: g7kjgh4y389250d7i3dfg934k985k5d3');
+				}
 			}
 		}
 

@@ -4,6 +4,7 @@
 	use config\manifest;
 	use config\vortex\__init__;
 	use helper\vortex_datetime_library;
+	use helper\vortex_session_library;
 
 	if(!defined('_-_-_APP_CONSTANT_-_-_')){
 		die();
@@ -36,6 +37,16 @@
 	$svr_prtcl_arr = explode('/', $SERVER_VARS['SERVER_PROTOCOL']);
 	$server_protocol = strtolower($svr_prtcl_arr[0]);
 	$GLOBALS['_-_-_SERVER_PROTOCOL_-_-_'] = $server_protocol;
+
+	$GLOBALS['_-_-_REQUEST_URI_-_-_'] = $SERVER_VARS['REQUEST_URI'];
+
+	$flash_request_method = vortex_session_library::get_flush_variable('_-_-_vortex_request_method_-_-_');
+	if(isset($flash_request_method))
+		$GLOBALS['_-_-_Request_Method_-_-_'] = $flash_request_method;
+	else
+		$GLOBALS['_-_-_Request_Method_-_-_'] = $SERVER_VARS['REQUEST_METHOD'];
+
+	// die($SERVER_VARS['REQUEST_METHOD']);
 
 	$GLOBALS['_-_-_path_-_-_'] = [
 							"_-_-_ini_path_-_-_"					=>	"app/http/illuminate/batch/",
@@ -70,6 +81,6 @@
 
 	// die(print_r($GLOBALS['fileread_record']));
 
-	__init__::init_routing($SERVER_VARS);
+	__init__::init_routing();
 
 ?>

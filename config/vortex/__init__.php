@@ -13,15 +13,14 @@
 
 	class __init__{
 
-		public static function init_routing($SERVER_VARS){
-			$route_OBJ = new route_analyzer($SERVER_VARS['REQUEST_URI']);
+		public static function init_routing(){
+			$route_OBJ = new route_analyzer($GLOBALS['_-_-_REQUEST_URI_-_-_']);
 			$route_analyzer_response = $route_OBJ->route();
 			if($route_analyzer_response['success']==1 && $route_analyzer_response['failure']==0){
 				$web_OBJ = new web();
 
 				$ROUTE_obj = new ROUTE($web_OBJ->route_list());
-				return $ROUTE_obj->__init_routing__($route_analyzer_response['web_uri'], $route_analyzer_response['URI'][1], $SERVER_VARS['REQUEST_METHOD']);
-
+				return $ROUTE_obj->__init_routing__($route_analyzer_response['web_uri'], $route_analyzer_response['URI'][1], $GLOBALS['_-_-_Request_Method_-_-_']);
 			}
 			else{
 				$view_OBJ = new view();

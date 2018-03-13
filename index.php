@@ -38,6 +38,7 @@
     }
 
     function System_Shutdown(){
+
         $isError = false;
         if($error = error_get_last()){
             switch($error['type']){

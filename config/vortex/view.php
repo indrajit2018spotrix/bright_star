@@ -39,7 +39,7 @@
 			}
 			else{
 				if(file_exists($GLOBALS['_-_-_path_-_-_']['_-_-_resource_-_-_'] . $view . "." . $GLOBALS['_-_-_resource_type_-_-_'] . ".php")){
-					Handler_Channel::channelize_view($GLOBALS['_-_-_path_-_-_']['_-_-_resource_-_-_'] . $view . "." . $GLOBALS['_-_-_resource_type_-_-_'] . ".php", $compact);
+					return Handler_Channel::channelize_view($GLOBALS['_-_-_path_-_-_']['_-_-_resource_-_-_'] . $view . "." . $GLOBALS['_-_-_resource_type_-_-_'] . ".php", $compact);
 				}
 				else{
 					unset($compact);

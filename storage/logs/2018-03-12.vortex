@@ -14,3 +14,44 @@ Stack trace:
 
 16:05:31:2432 ###### 8 <------> C:\xampp\htdocs\isg\bright_star\resource\app\app.blade.php <------> 78 <------> Undefined index: _-__manifest_-_-_
 
+18:09:46:8154 ###### 
+Parse error: syntax error, unexpected '}', expecting end of file in helper/vortex_session_library.php on line 34
+Errors parsing helper/vortex_session_library.php
+
+
+18:09:47:0799 ###### Framework resources missing.
+
+18:10:05:7192 ###### 
+Parse error: syntax error, unexpected '}', expecting end of file in helper/vortex_session_library.php on line 33
+Errors parsing helper/vortex_session_library.php
+
+
+18:10:05:9738 ###### Framework resources missing.
+
+18:10:52:9695 ###### 
+Parse error: syntax error, unexpected '}', expecting end of file in helper/vortex_session_library.php on line 33
+Errors parsing helper/vortex_session_library.php
+
+
+18:10:53:2229 ###### Framework resources missing.
+
+18:11:11:1251 ###### 
+Parse error: syntax error, unexpected '}', expecting end of file in helper/vortex_session_library.php on line 33
+Errors parsing helper/vortex_session_library.php
+
+
+18:11:49:1746 ###### 
+Fatal error: Namespace declaration statement has to be the very first statement or after any declare call in the script in helper/vortex_session_library.php on line 4
+Errors parsing helper/vortex_session_library.php
+
+
+18:49:21:7682 ###### 8 <------> C:\xampp\htdocs\isg\bright_star\config\vortex\route_analyzer.php <------> 26 <------> Uninitialized string offset: -1
+
+18:49:21:7718 ###### 8 <------> C:\xampp\htdocs\isg\bright_star\config\vortex\route_analyzer.php <------> 26 <------> Uninitialized string offset: -1
+
+18:52:46:3573 ###### 8 <------> C:\xampp\htdocs\isg\bright_star\config\vortex\route_analyzer.php <------> 26 <------> Uninitialized string offset: -1
+
+18:58:22:0668 ###### 8 <------> C:\xampp\htdocs\isg\bright_star\config\vortex\route_analyzer.php <------> 26 <------> Uninitialized string offset: -1
+
+19:04:33:0186 ###### 8 <------> C:\xampp\htdocs\isg\bright_star\config\vortex\route_analyzer.php <------> 71 <------> Undefined index: _-_-manifest-_-_
+
