@@ -24,7 +24,7 @@
 			}
 			else{
 				$view_OBJ = new view();
-				return $view_OBJ->render_view("app/400", $route_analyzer_response['message']);
+				return $view_OBJ->render_view("app/400", $route_analyzer_response);
 			}
 		}
 
