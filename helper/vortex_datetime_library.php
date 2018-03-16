@@ -97,6 +97,42 @@
 			$date_time = vortex_datetime_library::datetime_format($date, $format);
 			return $date_time;
 		}
+
+		public static function get_datetime_with_day_interval($format, $interval){
+			$date = new DateTime();
+			$date->setTimezone(new DateTimeZone(vortex_datetime_library::get_DateTimeZone()));
+			$date->add(DateInterval::createFromDateString($interval.' day'));
+
+			$date_time = vortex_datetime_library::datetime_format($date, $format);
+			return $date_time;
+		}
+
+		public static function get_datetime_with_hour_interval($format, $interval){
+			$date = new DateTime();
+			$date->setTimezone(new DateTimeZone(vortex_datetime_library::get_DateTimeZone()));
+			$date->add(DateInterval::createFromDateString($interval.' hour'));
+
+			$date_time = vortex_datetime_library::datetime_format($date, $format);
+			return $date_time;
+		}
+
+		public static function get_datetime_with_minute_interval($format, $interval){
+			$date = new DateTime();
+			$date->setTimezone(new DateTimeZone(vortex_datetime_library::get_DateTimeZone()));
+			$date->add(DateInterval::createFromDateString($interval.' minute'));
+
+			$date_time = vortex_datetime_library::datetime_format($date, $format);
+			return $date_time;
+		}
+
+		public static function get_datetime_with_second_interval($format, $interval){
+			$date = new DateTime();
+			$date->setTimezone(new DateTimeZone(vortex_datetime_library::get_DateTimeZone()));
+			$date->add(DateInterval::createFromDateString($interval.' second'));
+
+			$date_time = vortex_datetime_library::datetime_format($date, $format);
+			return $date_time;
+		}
 		
 	}
 
