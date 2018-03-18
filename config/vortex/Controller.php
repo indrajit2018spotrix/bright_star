@@ -16,7 +16,8 @@
 		private $Controller_Classes = [
 			"app\http\illuminate\controller\WelcomeController",
 			"app\http\illuminate\controller\AppController",
-			"app\http\illuminate\controller\SessionController"
+			"app\http\illuminate\controller\SessionController",
+			"app\http\illuminate\controller\UploadController"
 		];
 
 		public function __construct($controller, $function, $vars){

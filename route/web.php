@@ -57,6 +57,15 @@
 					"controller"	=>	'SessionController@session_data',
 					"view"			=>	NULL,
 					"string"		=>	NULL
+				],
+				[
+					"routeID"		=>	"j9h8hfb85g63f2d7i3dfg934k985k5d3",
+					"method"		=>	"post",
+					"route"			=>	"/upload_file",
+					"response_type"	=>	"string",
+					"controller"	=>	'UploadController@upload_file',
+					"view"			=>	NULL,
+					"string"		=>	NULL
 				]
 			];
 

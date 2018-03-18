@@ -1,0 +1,23 @@
+19:13:29:3519 ###### 2 <------> C:\xampp\htdocs\isg\bright_star\app\vortex\library\PHP_MySQL\mysql\conn.php <------> 22 <------> mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+
+
+19:16:49:4526 ###### 
+Parse error: syntax error, unexpected ';', expecting ']' in helper/vortex_file_upload_library.php on line 39
+Errors parsing helper/vortex_file_upload_library.php
+
+
+19:17:33:0758 ###### 
+Parse error: syntax error, unexpected '=>' (T_DOUBLE_ARROW) in helper/vortex_file_upload_library.php on line 153
+Errors parsing helper/vortex_file_upload_library.php
+
+
+19:17:56:6415 ###### 
+Parse error: syntax error, unexpected ';', expecting ']' in helper/vortex_file_upload_library.php on line 161
+Errors parsing helper/vortex_file_upload_library.php
+
+
+19:18:19:9073 ###### 
+Parse error: syntax error, unexpected '$error_data' (T_VARIABLE) in helper/vortex_file_upload_library.php on line 231
+Errors parsing helper/vortex_file_upload_library.php
+
+

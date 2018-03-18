@@ -158,8 +158,10 @@
 
 					$controller_OBJ = new Controller($controller, $function, $this->url_var_arr);
 					$response = $controller_OBJ->TriggerController();
-					if(!$GLOBALS['_-_-_viewported_-_-_'])
+					if(!$GLOBALS['_-_-_viewported_-_-_']){
+						echo "<pre>";
 						print_r($response);
+					}
 					
 				}
 				elseif(isset($this->ROUTES[$this->routeIndex]['view'])){
